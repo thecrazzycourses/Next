@@ -1,0 +1,16 @@
+{
+  "name": "hacker",
+  "version": "1.0.0",
+  "description": "Hacker News Clone made with NextJs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "Rahul Choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
