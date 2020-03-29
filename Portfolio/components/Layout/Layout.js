@@ -1,7 +1,7 @@
-import Link from 'next/link'
 import Head from 'next/head'
 import Router from 'next/router'
 import NProgress from 'nprogress'
+import Link from 'next/link'
 
 Router.onRouteChangeStar = url => {
   NProgress.start()
@@ -15,7 +15,7 @@ Router.onRouteChangeError = url => {
   NProgress.done()
 }
 
-export default function Layout({ children, tittle }) {
+const Layout = ({ children, title }) => {
   return (
     <div className="root">
       <Head>
@@ -30,8 +30,12 @@ export default function Layout({ children, tittle }) {
         <Link href="/about">
           <a>About</a>
         </Link>
-      </header>
 
+        <Link href="/blog">
+          <a>Blog</a>
+        </Link>
+      </header>
+      <h1>{title}</h1>
       {children}
 
       <footer>
@@ -79,3 +83,5 @@ export default function Layout({ children, tittle }) {
     </div>
   )
 }
+
+export default Layout

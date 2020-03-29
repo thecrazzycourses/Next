@@ -1,9 +1,7 @@
-.next
-node_modules
-*.log
-yarn.lock
-package-lock.json
-out
+**/.next
+**/node_modules
+**/*.log
+**/yarn.lock
+**/package-lock.json
+**/out
 
-.idea
-Next.iml
