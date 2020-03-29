@@ -1,1 +1,9 @@
-next-portfolio/node_modules
+.next
+node_modules
+*.log
+yarn.lock
+package-lock.json
+out
+
+.idea
+Next.iml

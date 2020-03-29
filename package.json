@@ -1,0 +1,26 @@
+{
+  "name": "nextapp",
+  "version": "1.0.0",
+  "description": "Next & React SSR App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecrazzycourses/Next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecrazzycourses/Next/issues"
+  },
+  "homepage": "https://github.com/thecrazzycourses/Next#readme",
+  "dependencies": {
+    "next": "^9.3.2",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
